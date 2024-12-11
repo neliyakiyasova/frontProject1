@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт 3</title>
+    
+    <link rel="stylesheet" href="main4.css">
+</head>
+
+<body>
+    <form id="contactForm">
+        <h1>Разработка веб приложения</h1>
+        <p>Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей</p>
+        <ul>
+            <li> 
+                <label>Как вас зовут</label>
+                <input type="text" id="name" name="name" placeholder="например Иван Иванович Иванов" required>
+        
+            </li>
+            <li>
+                <label>Ваш e-mail</label>
+                <input type="text" id="email" name="email" placeholder="test@mail.ru" required>
+        
+            </li>
+            <li>
+                <label>Телефон</label>
+                <input type="text" id="phone" name="phone" placeholder="+7 919 999 99 99" required>
+        
+            </li>
+            <li>
+                <label>Страна</label>
+                <select id="country" name="country" required>
+                    <option>Россия</option>
+                    <option>Австрия</option>
+                    <option>Бельгия</option>
+                    <option>Венгрия</option>
+                    <option>Китай</option>
+                    <option>Корея</option>
+                    <option>Франция</option>
+                </select>
+            </li>
+            <li>
+                <label>Дата</label>
+                <input type="date" id="date" name="date" min="1900/01/01" max="2024/09/18" placeholder=" / /" required>
+
+            </li>
+            <div class="comment">
+                <li>
+                    <label>Комментарий</label>
+                    <textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+            
+                </li>
+            </div>
+            
+        
+        <input id="agreement" type="checkbox" required>
+        <label for="agreenent">Согласие на обработку моих персональных данных</label>
+        <div class="buttons"><a href="index5.html" class button><button>Отправить</button></a></div>
+        
+        
+        </ul>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: #B3A9A8;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+header .logo img{
+    width: 80px;
+    border-radius: 50%;
+}
+header .header-text p {
+    margin: 5px 5px;
+    text-align: right;
+}
+nav {
+    float: left;
+    width: 30%;
+    height: auto;
+    position: relative;  
+    left: 40px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;;
+    background-color: white;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: black;
+ 
+}
+nav a:hover {
+    color: rgb(171, 131, 131);
+
+}
+nav a:active {
+    color: rgb(94, 13, 70);
+
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;    
+}
+main {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    flex-direction: row;
+}
+.sidebar {
+    margin-right: 5px; 
+    float: left;
+    width: 20%;
+    margin-top: 70px;
+    background-color: #e5d1d1;
+    border-right: 1px solid #0c0b0b;
+    position: relative;  
+    left: -440px;
+    flex-shrink: 0;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.sidebar p {
+    font-weight: bold;   
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #0f0f0f;
+
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+    color:antiquewhite;
+}
+.sidebar ul li a:active {
+    text-decoration: underline;
+    color:aqua;
+}
+.content {
+    margin-top: 50px;
+    float: none;
+    width: 70%;
+    padding: 20px;         
+    position: relative;
+    left: -200px;
+ 
+}
+.content h1{
+    color:#5f1d29;
+}
+.cat-img{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cat-img img {
+    width: 100%;
+    height: 100%;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7d4852;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    float: right;
+    padding-right: 1px;
+
+}

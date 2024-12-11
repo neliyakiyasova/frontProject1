@@ -1,0 +1,21 @@
+.contents button {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 0.1%;
+    font-size: 25px;
+    color:#291711;;
+    border-color: #9FC284;
+    background-color:#DFEBD6;
+    border-radius: 10%;
+    box-shadow: 2px 2px 4px rgba(91, 22, 11, 0.5);
+    margin: 5%;
+}
+
+.contents button:hover {
+    color: #4E6E5D; 
+
+}
+.contents button:active {
+    color: rgb(148, 204, 185);
+
+}

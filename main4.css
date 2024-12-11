@@ -1,0 +1,40 @@
+* {
+    margin: 30px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.8vw;
+    float:left;
+   
+}
+.comment {
+    position: relative;
+    left: -30px;
+   
+}
+.comment textarea{
+    position: relative;
+    bottom: -70px;
+}
+.buttons button {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.1vw;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color:black;
+    border-color: #9FC284;
+    box-shadow: 2px 2px 4px rgba(91, 22, 11, 0.5);
+
+}
+
+.buttons button:hover {
+    color: rgb(214, 26, 26);
+
+}
+.buttons button:active {
+    color: rgb(94, 13, 70);
+
+}
